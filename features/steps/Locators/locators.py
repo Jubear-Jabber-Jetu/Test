@@ -1,0 +1,12 @@
+class Locators:
+    LOGIN_ICON = "(//*[name()='svg'])[1]"
+    SIGN_IN_LINK = "//a[@class='dropdown-item'][normalize-space()='Sign in']"
+    PHONE_NUMBER_INPUT = "//input[@placeholder='Enter phone number']"
+    PASSWORD_INPUT = "//input[@id='si-password']"
+    LOGIN_BUTTON = "//button[normalize-space()='Log in']"
+    WELCOME_MESSAGE = "//small[normalize-space()='Hello, Jubear']"
+    SEARCH_INPUT = "//input[@placeholder='Search here...']"
+    SEARCH_BUTTON = "//i[@class='czi-search text-white']"
+    SEARCH_PAGE_HEADER = "//div[@class='search-page-header']"
+    FIRST_ITEM = "(//div[contains(@class,'product-single-hover style--card')])[1]"
+    ADD_TO_CART_BUTTON = "//button[normalize-space()='Add to cart']"
